@@ -2,7 +2,7 @@
 
 Usage:
 
-BATool [ascii | goto | hide | key | quickedit | size | wait]
+``BATool [ascii | goto | hide | key | quickedit | size | wait]``
 
 ``BATool a[scii] "string"``
 Converts a string into ASCII code.
