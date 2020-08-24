@@ -11,7 +11,7 @@ Converts a string into ASCII code.
 Changes console cursor position.
 
 ``BATool h[ide] 0 | 1``
-Hides / shows console cursor.
+Shows / hides console cursor.
 
 ``BATool k[ey]``
 Get keypress and store result into %ERRORLEVEL%.
