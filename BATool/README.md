@@ -1,8 +1,8 @@
-# BATool 1.0 - The 7 in 1 batch plugin
+# BATool 1.0 - The 9 in 1 batch plugin
 
 Usage:
 
-``BATool [ascii | goto | hide | key | quickedit | size | wait]``
+``BATool [ascii | goto | hide | input | key | mouse | quickedit | size | wait]``
 
 ``BATool a[scii] "string"``
 Converts a string into ASCII code.
@@ -13,8 +13,14 @@ Changes console cursor position.
 ``BATool h[ide] 0 | 1``
 Shows / hides console cursor.
 
+``BATool i[nput]``
+Gets both input from keyboard and mouse.
+
 ``BATool k[ey]``
 Get keypress and store result into %ERRORLEVEL%.
+
+``BATool m[ouse]``
+Get mouse input.
 
 ``BATool q[uickedit] 0 | 1``
 Enables / Disables quick edit mode.
@@ -24,7 +30,6 @@ Changes console cursor size. 0 is default, 100 is maximum.
 
 ``BATool w[ait] ms``
 Waits specified milliseconds.
-
 
 ## Frequent Asked Questions
 
@@ -47,9 +52,12 @@ Answer: You can report the bug at https://github.com/anic17/batch-plugins/labels
 Answer: No, it's clean. It might be detected by some antivirus engines, but they are false positives
 
 7) **Is source code available?**  
-Answer: Source code will be available soon at same place where new versions will be uploaded
+Answer: Source code is available at same place where executable is.
 
-8) **Where can I contact developper?**  
+8) **How do I download oldest versions?**
+Answer: To download oldest versions you should look at the releases. There are all versions
+
+9) **Where can I contact developper?**  
 Answer: You can contact developper (anic17) on Discord: https://discord.gg/WN9dYax
 
 Copyright (c) 2020 anic17 Software
