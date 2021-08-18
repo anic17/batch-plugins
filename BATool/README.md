@@ -1,11 +1,14 @@
-# BATool 1.0 - The 9 in 1 batch plugin
+# BATool 1.0 - The 11 in 1 batch plugin
 
 Usage:
 
-``BATool [ascii | goto | hide | input | key | mouse | quickedit | size | wait]``
+``BATool [ascii | color | goto | hide | input | key | mouse | quickedit | size | text | wait]``
 
 ``BATool a[scii] "string"``
 Converts a string into ASCII code.
+
+``BATool c[olor] hexcolor``
+Changes the console color as hexadecimal.
 
 ``BATool g[oto] x y``
 Changes console cursor position.
@@ -28,8 +31,13 @@ Enables / Disables quick edit mode.
 ``BATool s[ize] size``
 Changes console cursor size. 0 is default, 100 is maximum.
 
+``BATool t[ext] "text"``
+Displays text into the console without new-line character.
+
 ``BATool w[ait] ms``
 Waits specified milliseconds.
+
+
 
 ## Frequent Asked Questions
 
@@ -42,7 +50,7 @@ Answer: Newer versions will be uploaded at https://github.com/anic17/batch-plugi
 3) **Will newer versions have a bigger size?**  
 Answer: Probably, as the machine code will be bigger because it will have more features.
 
-4) **In what programming language is BATool developped. And which compiler is used?**  
+4) **In what programming language is BATool developped? And which compiler is used?**  
 Answer: I created BATool in C. I compiled it using Tiny C Compiler.
 
 5) **I found a bug: Where can I report it?**  
