@@ -62,7 +62,7 @@ Answer: No, it's clean. It might be detected by some antivirus engines, but they
 7) **Is source code available?**  
 Answer: Source code is available at same place where executable is.
 
-8) **How do I download oldest versions?**
+8) **How do I download oldest versions?**  
 Answer: To download oldest versions you should look at the releases. There are all versions
 
 9) **Where can I contact developper?**  
